@@ -28,7 +28,9 @@
  
  ```
  git clone https://github.com/ACTG802/SCD_NGS_Analysis
- python setup.py install
+ conda create -n Python_3_9 python=3.9
+ conda activate Python_3_9
+ installation.sh
  ```
  
  ## Flags and QC
