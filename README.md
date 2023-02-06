@@ -16,9 +16,7 @@
  
  ```
  git clone https://github.com/ACTG802/SCD_NGS_Analysis
- conda create -n Python_3_9 python=3.9
- conda activate Python_3_9
- sbash installation.sh
+ conda env create -f environment.yaml
  ```
  
  ## Flags and QC
