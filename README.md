@@ -7,19 +7,7 @@
  
  
  ## Requirements
- CRISPResso2, fastp and basespace
- 
- The following commands can be used for installation of fastp and basespace. It is assumed CRISPResso2 is redily available as shared software 
- ```
- conda install -c bioconda fastp -y
- conda install -c hcc basespace-cli -y
- ```
- 
- Please see these links for more information:
- 
- [https://github.com/OpenGene/fastp]
- 
- [http://crispresso2.pinellolab.org/submission]
+
  
  
  
@@ -30,7 +18,7 @@
  git clone https://github.com/ACTG802/SCD_NGS_Analysis
  conda create -n Python_3_9 python=3.9
  conda activate Python_3_9
- installation.sh
+ sbash installation.sh
  ```
  
  ## Flags and QC
