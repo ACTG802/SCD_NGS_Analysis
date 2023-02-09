@@ -26,7 +26,7 @@
  Follow the steps in the SCD ipeline plan of making a directory, import fastq files from basespace and running using the commmand
  
  ```
- sbatch  /groups/clinical/projects/crispresso/crispresso_wrapper.sh /groups/clinical/projects/run_folder
+ sbatch  crispresso_wrapper.sh /run_folder
  ```
  
  Make sure fastq file names are consistent. Control samples are detected by containg the words 'Water', 'H2O' or 'NTC'. The amplicons of the HBB gene must contains 'HBB' in the file name and likewise for 'OT1' for the OT1 samples.
